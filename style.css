@@ -1,0 +1,75 @@
+html,
+body {
+  margin: 0;
+ background-color: #1F1C2C;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+    
+}
+
+canvas {
+  border: 2px solid #585555; /* Borda branca ao redor do canvas */ 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra ao redor do canvas */
+  display: block;
+}
+
+.botao-iniciar,
+.seletor-dificuldade,
+.botao-pausar {
+font-size: 20px; 
+padding: 20px;
+border-radius: 15px;
+background: linear-gradient(to right, #1F1C2C, #928DAB); 
+color:#00FFEC;
+border: none;
+margin: 10px 5px;
+cursor: pointer; 
+text-align:center;
+}
+
+.botao-pausar{
+  font-size: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 10px ;
+}
+
+.botao-iniciar:hover,
+.botao-pausar:hover, 
+.seletor-dificuldade:hover  { 
+ background: linear-gradient(to right, #00C6FF, #0072FF); 
+   box-shadow: 0 0 20px #00C6FF, 0 0 30px #00C6FF, 0 0 40px #00C6FF;   
+}
+
+h1{
+  color:#00FFEC;
+  text-align: center;
+}
+
+.mensagem-objetivo {
+  font-size: 18px;
+   color:whitesmoke;
+  margin-top: 10px; 
+  text-align: center;
+}
+
+.botao-musica { background: linear-gradient(to right, #0F2027, #2C5364); /* Gradiente de preto e cinza */
+   border: none;
+    color: #00FFEC; /* Cor futurística (ciano) */ 
+    padding: 20px 40px; /* Aumente o padding para um botão maior */ 
+    text-align: center; 
+    text-decoration: none;
+     display: inline-block;
+      font-size: 20px; /* Aumente o tamanho da fonte */
+  margin: 10px 5px; 
+  cursor: pointer;
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 0 10px #00FFEC, 0 0 20px #00FFEC, 0 0 30px #00FFEC;
+  transition: all 0.3s ease; /* Animação suave */ } 
+          
+.botao-musica:hover {
+   background: linear-gradient(to right, #00C6FF, #0072FF); /* Gradiente de azul vibrante */
+    box-shadow: 0 0 20px #00C6FF, 0 0 30px #00C6FF, 0 0 40px #00C6FF; /* Efeito de néon mais forte */
+}
